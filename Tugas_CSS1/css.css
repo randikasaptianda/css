@@ -1,0 +1,189 @@
+body{
+    font:14px/25px arial, sans-serif;
+    background-image: url(img/saya1.png);
+    background-size: cover;
+    color: rgb(155, 155, 30);
+    margin-top: 50px;
+}
+
+.kotak{
+    background-color: rgb(155, 155, 30);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    border-bottom: 5px solid rgb(201, 158, 236);
+}
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: rgb(104, 99, 97);
+    border:5px solid rgb(155, 155, 30);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.header{
+    padding: 5px;
+    
+}
+
+.header .judul{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left:10px ;
+    text-shadow: 5px 5px 5px black;
+}           
+
+.par1{
+    font-size: 15px;
+    color: rgb(155, 155, 30);
+    margin-left: 285px;
+    padding-top: -8px;
+    text-shadow: 5px 5px 5px black;
+    font-weight: bold;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 60PX;
+    padding-left: 60px;
+
+}
+
+.header a{
+    text-decoration: none;
+    color: rgb(201, 158, 236);
+    text-shadow: 5px 5px 5px black;
+}
+
+.header a:hover{
+    background-color: darkseagreen;
+    color: dimgrey;
+    font-size: 15px;
+    text-transform: unset;
+    
+}
+
+#saya{
+    height: 180px;
+    /*background-image: url(img/saya2.jpeg);*/
+    background-color: rgb(201, 158, 236);
+    border-top:5px solid rgb(155, 155, 30);
+    border-bottom:5px solid rgb(155, 155, 30) ;
+}
+#saya img{
+    width: 150px;
+    height: 150px;
+  margin: 315px;
+  margin-top: 10px;
+  border-radius:50%;
+  
+  border: 5px solid rgb(155, 155, 30);
+  
+}
+
+.main{
+    width: 300px;
+   padding: 15px;
+    box-sizing: border-box;
+    float: left;
+}
+.main .h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    text-shadow: 5px 5px 5px black;
+}
+.main .penulis{
+    margin-left: 10px;
+    text-shadow: 5px 5px 5px black;
+}
+
+.main .penulis a{
+    text-decoration: none;
+    color: rgb(201, 158, 236);
+    text-shadow: 5px 5px 5px black;
+    }
+    
+.main .p{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-shadow: 5px 5px 5px black;
+}
+
+/*sidebar*/
+.sidebar{
+    width: 400px;
+    float: left;
+    padding: 20px;
+    margin-top: 5px;
+    text-shadow: 5px 5px 5px black;
+}
+.sidebar h3{
+    font-weight: bold;
+    text-shadow: 5px 5px 5px black;
+}
+
+.sidebar p{
+    font: 12px/12px arial;
+    text-align: justify;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+/*.sidebar .ig{
+    width: 20px;
+    height: 20px;
+    background-image: url(img/int.png);
+    background-size: cover;
+    background-color: rgb(104, 99, 97);
+}*/
+.sidebar .tabel{
+    margin-top: 10px;
+    padding-left: 50px;
+    text-shadow: 5px 5px 5px black;
+}
+.sidebar .pengalaman{
+    padding-top:10px ;
+}
+.sidebar .pengalaman ul li{
+    text-decoration: none;
+}
+.sidebar .kontak .form{
+    width: 0px;
+    float: left;
+    padding-left: 130px;
+}
+.sidebar .kontak .form .input, .input2{
+    border:1px 1px 1px 1px solid rgb(201, 158, 236);
+}
+
+.footer{
+    background-color: rgb(201, 158, 236);
+    height: 30px;
+}
+.footer .copy{
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    border-top: 5px solid rgb(155, 155, 30);
+    
+}
+
+/*clearfix*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
